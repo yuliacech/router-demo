@@ -1,5 +1,6 @@
 import {NavLink} from "react-router-dom";
 import React from "react";
+import './Results.css';
 
 function Results(props) {
     return (

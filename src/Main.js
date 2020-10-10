@@ -10,7 +10,7 @@ function Main(props) {
     return (
         <>
             <Navigation tab={props.tab}/>
-            <Results tab={props.tab} cinemas={cinemasToDisplay}/>
+            <Results tab={props.tab} cinemas={cinemasToDisplay} cinemaID={props.cinemaID}/>
             <Detail tab={props.tab} cinemas={cinemasToDisplay} cinemaID={props.cinemaID}/>
         </>);
 }

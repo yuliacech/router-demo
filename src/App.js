@@ -10,7 +10,7 @@ function App() {
     return (
         <Router>
             <Switch>
-                <Route exact path="/:tab(cinemas|favs)/:cinemaID?" render={({match}) => (
+                <Route exact path="/:tab(cinemas|favs)/:cinemaID?" render={({ match }) => (
                     <Main tab={match.params.tab} cinemaID={match.params.cinemaID} favs={favs} cinemas={cinemas}/>
                 )}>
                 </Route>
