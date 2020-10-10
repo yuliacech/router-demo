@@ -13,7 +13,7 @@ function Navigation(props) {
                 }
             </li>
             <li>
-                <Link to="/not_found_route">Not Found Route will redirect to /</Link>
+                <Link to="/not_found_route" data-testid="not-found-link">Not Found Route will redirect to /</Link>
             </li>
         </ul>
     </nav>);
